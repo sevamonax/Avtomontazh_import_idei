@@ -1,0 +1,25 @@
+{
+  "name": "avtomontazh-sloi",
+  "version": "1.0.0",
+  "description": "Экранный слой вертикального ролика: субтитры, заголовок, врезки, инфографика",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "проверить": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.500",
+    "@remotion/cli": "^4.0.500",
+    "@remotion/google-fonts": "^4.0.500",
+    "@remotion/renderer": "^4.0.500",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "remotion": "^4.0.500"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
